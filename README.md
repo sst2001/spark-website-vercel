@@ -5,34 +5,34 @@ This is the original Spark website served via Docker using nginx.
 ## Run the Website
 
 ### Using Docker Compose (Recommended)
-```bash
+\`\`\`bash
 docker-compose up -d
-```
+\`\`\`
 
 ### Using Docker directly
-```bash
+\`\`\`bash
 docker build -t spark-website .
 docker run -d -p 8080:80 --name spark-website spark-website
-```
+\`\`\`
 
 ## Access the Website
 
 Open your browser and navigate to:
-```
+\`\`\`
 http://localhost:8080
-```
+\`\`\`
 
 ## Stop the Website
 
-```bash
+\`\`\`bash
 docker-compose down
-```
+\`\`\`
 
 Or if using Docker directly:
-```bash
+\`\`\`bash
 docker stop spark-website
 docker rm spark-website
-```
+\`\`\`
 
 ## Website Structure
 

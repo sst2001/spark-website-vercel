@@ -52,4 +52,3 @@ All blog posts are accessible via direct URLs:
 - Go to any blog post: https://your-domain.com/blog-post-name.html
 
 The blog.html page shows 10 featured posts, but all 37 posts are accessible individually.
-

@@ -18,15 +18,15 @@ This directory contains a complete static HTML website that can be deployed to a
 ### Option 2: Deploy with Docker (Optional)
 If you want to test locally or deploy with Docker:
 
-```bash
+\`\`\`bash
 docker build -t spark-website .
 docker run -d -p 8080:80 --name spark-website spark-website
-```
+\`\`\`
 
 Or use Docker Compose:
-```bash
+\`\`\`bash
 docker-compose up -d
-```
+\`\`\`
 
 ### Option 3: Static Hosting Services
 Upload to:
@@ -57,7 +57,7 @@ All 37 blog posts are available as individual HTML files:
 
 ## 📊 File Structure
 
-```
+\`\`\`
 ├── index.html          # Homepage
 ├── blog.html           # Blog listing (shows 10 featured posts)
 ├── about.html          # About page
@@ -69,7 +69,7 @@ All 37 blog posts are available as individual HTML files:
 │   └── rss2            # RSS 2.0 feed
 └── [other assets]      # Images, CSS, JS, etc.
 
-```
+\`\`\`
 
 ## ✨ Features
 
@@ -94,13 +94,12 @@ For production deployment:
 
 For production with Docker:
 
-```bash
+\`\`\`bash
 docker build -t spark-website .
 docker run -d -p 80:80 --restart unless-stopped spark-website
-```
+\`\`\`
 
 ## 📧 Contact
 
 Website: www.spark.org.il
 Email: info@spark.org.il
-
