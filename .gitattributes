@@ -1,0 +1,12 @@
+deploy/local/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+deploy/local/**/*.gif filter=lfs diff=lfs merge=lfs -text
+deploy/local/**/*.svg filter=lfs diff=lfs merge=lfs -text
+deploy/local/**/*.ico filter=lfs diff=lfs merge=lfs -text
+deploy/local/**/*.otf filter=lfs diff=lfs merge=lfs -text
+deploy/local/**/*.woff2 filter=lfs diff=lfs merge=lfs -text
+deploy/local/**/*.png filter=lfs diff=lfs merge=lfs -text
+deploy/local/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+deploy/local/**/*.webp filter=lfs diff=lfs merge=lfs -text
+deploy/local/**/*.ttf filter=lfs diff=lfs merge=lfs -text
+deploy/local/**/*.eot filter=lfs diff=lfs merge=lfs -text
+deploy/local/**/*.woff filter=lfs diff=lfs merge=lfs -text
