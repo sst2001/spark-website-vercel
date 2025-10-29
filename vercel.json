@@ -1,7 +1,9 @@
 {
-  "buildCommand": "cd deploy && npm run build",
-  "outputDirectory": "deploy/.next",
-  "installCommand": "cd deploy && npm install",
-  "framework": "nextjs",
-  "rootDirectory": "deploy"
+  "public": true,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
